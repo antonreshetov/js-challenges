@@ -4,11 +4,11 @@ import { expect, it } from 'vitest'
 // Sum a and b
 // Return the result
 
-export const addTwoNumbers = (a, b) => {
+export const fn = (a, b) => {
   return a + b
 }
 
 it('Check', () => {
-  expect(addTwoNumbers(2, 4)).toEqual(6)
-  expect(addTwoNumbers(10, 10)).toEqual(20)
+  expect(fn(2, 4)).toEqual(6)
+  expect(fn(10, 10)).toEqual(20)
 })
