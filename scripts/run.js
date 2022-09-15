@@ -43,7 +43,6 @@ chokidar.watch(challengeFile).on('all', () => {
       console.log(chalk.green('Challenge is done!'))
     }
     console.log()
-    process.exit(1)
   } catch (err) {
     console.log(chalk.red('Challenge is failed. Try again.'))
     console.log()
