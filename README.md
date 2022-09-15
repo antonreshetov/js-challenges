@@ -1,4 +1,4 @@
-# JavaScript challenge
+# JavaScript challenges
 
 Learn JS by solving coding exercises.
 
