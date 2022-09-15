@@ -2,6 +2,8 @@
 
 Learn JS by solving coding exercises.
 
+![](./demo.png)
+
 ## Get Started
 
 ```sh
