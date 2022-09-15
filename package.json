@@ -1,0 +1,37 @@
+{
+  "name": "js-challenge",
+  "version": "1.0.0",
+  "description": "Learn JS by solving coding exercises",
+  "scripts": {
+    "c": "node scripts/run.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky install"
+  },
+  "repository": "https://github.com/antonreshetov/js-challenges",
+  "author": {
+    "name": "Anton Reshetov",
+    "url": "https://github.com/antonreshetov"
+  },
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "chalk": "^4.1.2",
+    "chokidar": "^3.5.3",
+    "eslint": "^8.23.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-promise": "^6.0.1",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.5.0",
+    "minimist": "^1.2.6",
+    "vitest": "^0.23.2"
+  }
+}
