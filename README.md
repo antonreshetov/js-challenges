@@ -2,7 +2,7 @@
 
 Learn JS by solving coding exercises.
 
-![](./demo.png)
+![](./hero.png)
 
 ## Get Started
 
@@ -18,6 +18,11 @@ npm run c basics/01
 # Start solution <category>/<number>
 npm run c basics/01 -- -s
 ```
+
+## Roadmap
+
+- Collecting different exercises
+- Advanced level
 
 ## Credits
 - [Erik Kückelheim](https://www.erik-kueckelheim.com)
